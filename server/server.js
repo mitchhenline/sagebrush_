@@ -9,9 +9,11 @@ app.use(express.json())
 
 app.use(cors())
 
-const {home} = require("./controllers/controller")
+const {home, styles, javascript} = require("./controllers/controller")
 
 app.get("/", home)
+app.get("/css", styles)
+app.get("/js", javascript)
 
 const { PORT } = process.env
 
