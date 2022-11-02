@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <title>Sagebrush Spot</title>
 </head>
 <body>
-    <h1>test of page</h1>
+    <header id="header">
+        <p class="nav">HOW TO USE</p>
+        <p class="nav">COMPLETE LIST</p>
+        <p class="nav">TRY IT OUT</p>
+        <p class="nav">ABOUT</p>
+    </header>
+    <main id="main">
+        <section id="sagebrush-pic">
+        </section>
+        <section id="header-section">
+            <h2 id="main-header" class="header-text">Sagebrush Spot</h2>
+            <h3 id="secondary-header" class="header-text"><em>A guide to the native plants<br>of the American West</em></h3>
+        </section>
+        <section id="functioning-section">
+                <div id="query-box">
+                  <button id="plantButton"><h1 id="button-text">Random plant:</h1></button>
+                  <div id="plant-info-box"></div>
+                </div>
+                
+        </section>
+    </main>    
+
+    <footer id="footer"></footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
     
 </body>
 </html>
