@@ -1,5 +1,8 @@
 {
   "name": "deployment",
+  "engines": {
+    "node": ">=16.7.1"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
