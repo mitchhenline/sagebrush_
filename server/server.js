@@ -13,7 +13,7 @@ const {home, styles, javascript} = require("./controllers/controller")
 
 app.get("/", home)
 app.get("/css", styles)
-app.get("/js", javascript)
+app.get("/javascript", javascript)
 
 const { PORT } = process.env
 
